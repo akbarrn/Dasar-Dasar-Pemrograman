@@ -114,6 +114,7 @@ def koreksi_fragment():
 
 koreksi_fragment()
 
+#skor akhir
 if st.session_state.current_soal is not None:
     soal_fragment()
 else:
